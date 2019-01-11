@@ -19,6 +19,7 @@ public class Main {
             System.out.print("Please, choose difficulty level(hard, middle, easy):");
             choise = in.nextLine();
             GUIFactory factory;
+            //Creating Factory of set mode
             if (choise.compareTo("hard") == 0) {
                 factory = new HardFactory();
             } else if (choise.compareTo("middle") == 0) {
@@ -29,7 +30,9 @@ public class Main {
                 System.out.print("Wrong parameter, try again.");
                 return;
             }
+            //Creating bird
             Bird bird = factory.createBird(5, 10, 3, 3);
+            //Creating scrollHandler
             ScrollHandler scroller = factory.createScrollHandler();
             System.out.print("Created bird level: ");
             System.out.print(bird.getBirdClass());

@@ -2,6 +2,7 @@ package Bird;
 
 /**
  * Created by pidho on 02.04.2018.
+ * Easy mode version of Bird
  */
 public class EasyBird implements Bird{
     private float x, y;

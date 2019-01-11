@@ -7,6 +7,7 @@ import ScrollHandler.EasyScrollHandler;
 
 /**
  * Created by pidho on 02.04.2018.
+ * Easy mode version of Factory
  */
 public class EasyFactory implements GUIFactory{
 

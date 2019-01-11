@@ -6,6 +6,7 @@ import ScrollHandler.MiddleScrollHandler;
 
 /**
  * Created by pidho on 02.04.2018.
+ * Middle mode version of Factory
  */
 public class MiddleFactory implements GUIFactory{
     @Override

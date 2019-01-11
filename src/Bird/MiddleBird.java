@@ -2,6 +2,7 @@ package Bird;
 
 /**
  * Created by pidho on 02.04.2018.
+ * Middle mode version of bird
  */
 public class MiddleBird implements Bird{
     private float x, y;

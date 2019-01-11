@@ -6,8 +6,10 @@ import ScrollHandler.HardScrollHandler;
 
 /**
  * Created by pidho on 02.04.2018.
+ * Hard mode version of Factory
  */
 public class HardFactory implements GUIFactory{
+
     @Override
     public Bird createBird(float x, float y, int width, int height)
     {
